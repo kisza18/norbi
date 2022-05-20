@@ -7,9 +7,10 @@
       <AboutSection />
     </div>
     <div class="bg-gray-50">
-      <LeftGrid
-        title="Genetikai jellemzők"
-        content="Egy ember testfelépítéséből számtalan belső tulajdonságra, életcélra, 
+      <div>
+        <LeftGrid
+          title="Genetikai jellemzők"
+          content="Egy ember testfelépítéséből számtalan belső tulajdonságra, életcélra, 
 jó és rossz tulajdonságra, illetve táplálkozási szokásra lehet következtetni. 
 Csak egy pár példát hagy említsek. Széleskörben elterjedt meglátás, 
 hogy a nagydarab emberek mindig kedvesebbek és toleránsabbak embertársaikkal 
@@ -18,13 +19,15 @@ elterjedt jellemzőt például tudta, hogy azok a férfiak, akik erősen kopaszo
 nagy valószínűséggel laktóz érzékenyek, még egy magas vékony ember soha nem lesz 
 laktóz érzékeny. Az ételérzékenységek nagy része az emésztés sebességével függ össze, 
 ami az előbb említett példa szerint is jól kivehető a külső testfelépítésünkből"
-        imageUrl="1.png"
-      />
+          imageUrl="1.png"
+        />
+      </div>
     </div>
     <div>
-      <RightGrid
-        title="Miben különbözöm más terapeutáktól"
-        content="Ember alatt egy elég erősen összetett rendszert értünk, amit nem lehet külön
+      <div>
+        <RightGrid
+          title="Miben különbözöm más terapeutáktól"
+          content="Ember alatt egy elég erősen összetett rendszert értünk, amit nem lehet külön
 darabokban vizsgálni. Számomra megdöbbentő volt, hogy akiknél jártam
 terapeutáknál sablonos programok alapján kezeltek, voltak check pointok
 amiken végig mentük de valójában csak találgattak. Mindegyikük azzal akart
@@ -36,33 +39,38 @@ válaszokat kaptam. Nagyon hiányzott az az érzés, hogy az én életemről
 legyen szó ne csak álltalános elvekről. Aztán addig kerestem kutattam a
 válaszokat, hogy végül egy olyan terapeutává váltam, aki már nem keresi,
 hanem adja a válaszokat"
-        imageUrl="2.png"
-      />
+          imageUrl="2.png"
+        />
+      </div>
     </div>
     <div class="bg-gray-50">
-      <LeftGrid
-        title="Az ominózus brit tudósok"
-        content="Mikor teljesen összezavarodik a TV-től, hogy az egyik évben azt halja egy ételről, 
+      <div>
+        <LeftGrid
+          title="Az ominózus brit tudósok"
+          content="Mikor teljesen összezavarodik a TV-től, hogy az egyik évben azt halja egy ételről, 
 hogy teljesen egészséges rá kétévvel később kijön, hogy halálos méreg és 
 teljesen összezavarodik, hogy önt megvezették akkor jusson eszébe, 
 hogy valójában egy összetett mondat két részét mutatták meg önnek időben eltolva. 
 Mert a teljes mondat valójában így szól: egy adott étel egy adott genetikai 
 csoportba tartozó ember számára gyógyír míg a csoporton kívül esők számára méreg"
-        imageUrl="3.png"
-      />
+          imageUrl="3.png"
+        />
+      </div>
     </div>
     <div>
-      <RightGrid
-        title="Miben lehetek a segítségére"
-        content="Segíthetek önnek megoldást keresni lelki gondjaira és az ezekkel szorosan összefüggő 
+      <div>
+        <RightGrid
+          title="Miben lehetek a segítségére"
+          content="Segíthetek önnek megoldást keresni lelki gondjaira és az ezekkel szorosan összefüggő 
 testi problémáira és függőségeire a bemutatkozóban ismertetetett jellemzők figyelembevételével.
 Számtalan történet tudok mesélni önnek az élet összefüggéseiről, amikből 
 felépítheti a saját igazságait, kaphat egy új perspektívát tőlem és elindulhat egy új úton. 
 A kedvenc témáim a gyermek nevelés és a válás utáni újrakezdés, de az élet többi 
 területén is otthonosan mozgok. Amiben viszont nem tudok segíteni a gyász és annak feldolgozása, 
 ha ilyen kihívással néz szembe kérem válasszon mást mert ebben a témakörben nem tudok érdemi segítséget nyújtani"
-        imageUrl="4.png"
-      />
+          imageUrl="4.png"
+        />
+      </div>
     </div>
     <div class="bg-gray-50">
       <PriceSection />
