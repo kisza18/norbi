@@ -5,7 +5,7 @@
         class="grid grid-cols-1 lg:grid-cols-2 gap-10 h-full items-center justify-between"
       >
         <div
-          class="w-full h-full lg:relative order-1"
+          class="w-full h-full lg:relative lg:order-1"
           v-motion
           :initial="{
             opacity: 0,
