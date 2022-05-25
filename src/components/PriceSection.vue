@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-7xl mx-auto">
-    <div class="flex-col text-center mx-32 py-32">
+    <div class="flex-col text-center mx-10 py-20 lg:mx-32 lg:py-32">
       <div class="price_header">
         <h1
           class="text-4xl mb-10 text-gray-700"
@@ -42,7 +42,7 @@
         </p>
       </div>
       <div
-        class="container grid grid-cols-2 gap-10 mx-auto pt-20"
+        class="container grid grid-cols-1 lg:grid-cols-2 gap-10 mx-auto pt-20"
         v-motion
         :initial="{
           opacity: 0,
@@ -57,7 +57,7 @@
           },
         }"
       >
-        <div class="grid_left text-left p-10">
+        <div class="grid_left text-left lg:p-10">
           <div class="flex items justify-between">
             <h1 class="text-lg text-gray-700">Rövid kurzus</h1>
             <h1 class="text-lg text-gray-700">10 000 Ft</h1>
@@ -68,7 +68,7 @@
             </p>
           </div>
         </div>
-        <div class="grid_right text-left p-10">
+        <div class="grid_right text-left lg:p-10">
           <div class="flex items justify-between">
             <h1 class="text-lg text-gray-700">Hosszú kurzus</h1>
             <h1 class="text-lg text-gray-700">20 000 Ft</h1>

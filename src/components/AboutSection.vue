@@ -1,6 +1,6 @@
 <template>
   <div class="max-w-7xl mx-auto">
-    <div class="flex-col text-center mx-32 py-32">
+    <div class="flex-col text-center mx-10 lg:mx-32 py-16 lg:py-32">
       <h1
         class="text-4xl mb-10 text-gray-700"
         v-motion

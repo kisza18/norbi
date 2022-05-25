@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="headers bg-gray-50 pt-14">
+    <div class="headers bg-gray-50 pt-2 lg:pt-14">
       <TheHeader />
     </div>
     <div>
@@ -89,7 +89,13 @@ export default {
   data() {
     return {};
   },
-  components: { TheHeader, AboutSection, LeftGrid, RightGrid, PriceSection },
+  components: {
+    TheHeader,
+    AboutSection,
+    LeftGrid,
+    PriceSection,
+    RightGrid,
+  },
 };
 </script>
 
@@ -100,6 +106,6 @@ export default {
 .headers {
   background-image: url("./assets/images/wave.png");
   background-repeat: no-repeat;
-  background-position: center 300px;
+  background-position: center bottom;
 }
 </style>
