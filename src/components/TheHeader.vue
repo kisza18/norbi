@@ -1,40 +1,50 @@
 <template>
   <div class="header max-w-7xl mx-auto">
     <div class="mx-10 h-full justify-between">
-      <div class="grid grid-cols-1 lg:grid-cols-2 items-center h-full">
+      <div class="flex-wrap lg:flex lg:flex-nowrap h-full">
         <div
-          class="content lg:h-full text-center lg:text-left lg:flex items-center -mt-40 lg:-mt-32"
+          class="h-1/2 lg:h-full w-full flex flex-col items-center lg:items-start justify-center lg:pb-56"
         >
-          <div class="text pt-4">
-            <h1 class="text-6xl font-semibold text-gray-700 mb-3">
-              Szőke Norbert
-            </h1>
-            <h3 class="text-xl mb-5 text-gray-500 uppercase">
-              Életmód tanácsadó
-            </h3>
-            <button class="btn h-12 py-3 px-7 text-white rounded-md shadow-xl">
-              Olvass tovább
-            </button>
-          </div>
+          <h1
+            class="text-6xl text-center lg:text-left font-semibold text-gray-700 mb-3"
+          >
+            Szőke Norbert
+          </h1>
+          <h3 class="text-xl mb-5 text-gray-500 uppercase">
+            Életmód tanácsadó
+          </h3>
+          <a
+            :href="href"
+            @click.prevent="scroll"
+            class="btn h-12 py-3 px-7 text-white text-center rounded-md shadow-xl w-48"
+          >
+            Olvass tovább
+          </a>
         </div>
-        <div class="content h-full flex items-center text-center">
-          <div class="w-full h-full relative">
-            <img
-              class="absolute h-full lg:right-32 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2"
-              src="../assets/images/man2.png"
-              alt="image"
-            />
-          </div>
+
+        <div class="h-1/2 lg:h-full w-full flex items-center justify-center">
+          <img class="h-full" src="../assets/images/man2.png" alt="" />
         </div>
       </div>
     </div>
   </div>
 </template>
 
+<script>
+export default {
+  props: ["href"],
+  methods: {
+    scroll() {
+      document.querySelector(this.href).scrollIntoView({ behavior: "smooth" });
+    },
+  },
+};
+</script>
+
 <style scoped>
 .header {
   height: 100vh;
-  max-height: 870px;
+  max-height: 1100px;
 }
 .btn {
   background: #43507c;

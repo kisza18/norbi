@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="headers bg-gray-50 pt-2 lg:pt-14">
-      <TheHeader />
+      <TheHeader href="#section" />
     </div>
-    <div>
+    <div id="section">
       <AboutSection />
     </div>
     <div class="bg-gray-50">
